@@ -1,0 +1,278 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{background-color:#000000;background-image:url(resc/tnl-wall-mc-escher-birds-tessellations-885378.jpg);}
+
+#container{
+	background-color:#FFFFFF;
+	width:1150px;
+	height:620px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow:hidden;}
+	
+#leftside{
+	width:340px;
+	height:540px;
+	float:left;
+	}
+	
+#middle{
+	width:730px;
+	height:480px;
+	margin-top:60px;
+	float:left;
+	overflow:scroll;
+	box-shadow: 5px 5px 10px  #A7A2A3 ;
+	}
+	
+#imageandquotes{
+	width:730px;
+	height:210px;
+	}
+	
+	#image{width:295px;
+	height:210px;
+	float:left;
+	overflow:hidden;
+	}
+	
+	#quotesbox{width:435px;
+	height:210px;
+	float:left;
+	}
+	
+	#quotes{width:395px;
+	height:190px;
+	float:left;
+	/*background-color:#000000;*/
+	}
+	
+	#quote1{
+width:395px;
+height:190px;
+position:absolute;
+-webkit-animation-name:q1;
+-moz-animation-name:q1;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-duration: 50s;
+-moz-animation-duration:50s;
+-webkit-animation-timing-function: linear;
+-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes q1
+{
+0% {opacity:0;}
+5% {opacity:1;}
+10% {opacity:1;}
+15%{opacity:1}
+20% {opacity:0;}
+30% {opacity:0;}
+40% {opacity:0;}
+50% {opacity:0;}
+60% {opacity:0;}
+70% {opacity:0;}
+80% {opacity:0;}
+90% {opacity:0;}
+100% {opacity: 0;}
+}
+
+#quote2{
+width:395px;
+height:190px;
+position:absolute;
+-webkit-animation-name:q2;
+-moz-animation-name:q2;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-duration: 50s;
+-moz-animation-duration: 50s;
+-webkit-animation-timing-function: linear;
+-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes q2
+{
+0% {opacity:0;}
+10% {opacity:0;}
+20% {opacity:0;}
+25% {opacity:1}
+30% {opacity:1;}
+35% {opacity:1}
+40% {opacity:0;}
+50% {opacity:0;}
+60% {opacity:0;}
+70% {opacity:0;}
+80% {opacity:0;}
+90% {opacity:0;}
+100% {opacity: 0;}
+}
+
+#quote3{
+width:395px;
+height:190px;
+position:absolute;
+-webkit-animation-name:q3;
+-moz-animation-name:q3;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-duration: 50s;
+-moz-animation-duration: 50s;
+-webkit-animation-timing-function: linear;
+-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes q3
+{
+0% {opacity:0;}
+10% {opacity:0;}
+20% {opacity:0;}
+30% {opacity:0;}
+40% {opacity:0;}
+45% {opacity:1;}
+50% {opacity:1;}
+60%{opacity:1;}
+65%{opacity:0}
+70% {opacity:0;}
+80% {opacity:0;}
+90% {opacity:0;}
+100% {opacity: 0;}
+}
+
+#quote4{
+width:395px;
+height:190px;
+position:absolute;
+-webkit-animation-name:q4;
+-moz-animation-name:q4;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-duration: 50s;
+-moz-animation-duration: 50s;
+-webkit-animation-timing-function: linear;
+-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes q4
+{
+0% {opacity:0;}
+10% {opacity:0;}
+20% {opacity:0;}
+30% {opacity:0;}
+40% {opacity:0;}
+50% {opacity:0;}
+60% {opacity:0;}
+65% {opacity: 0}
+70% {opacity:1;}
+80% {opacity:1;}
+84% {opacity: 1;}
+85% {opacity:0;}
+100% {opacity: 0;}
+}
+	
+	
+#quote5{
+width:395px;
+height:190px;
+position:absolute;
+-webkit-animation-name:q5;
+-moz-animation-name:q5;
+-webkit-animation-iteration-count: infinite;
+-moz-animation-iteration-count: infinite;
+-webkit-animation-duration: 50s;
+-moz-animation-duration: 50s;
+-webkit-animation-timing-function: linear;
+-moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes q5
+{
+0% {opacity:0;}
+10% {opacity:0;}
+20% {opacity:0;}
+30% {opacity:0;}
+40% {opacity:0;}
+50% {opacity:0;}
+60% {opacity:0;}
+70% {opacity:0;}
+80% {opacity:0;}
+85% {opacity:0;}
+92% {opacity:1;}
+98%{opacity:1}
+100% {opacity: 0;}
+}
+	
+	
+	
+	
+
+
+
+#footer{
+	width:1150px;
+	height:80px;
+	float:left;
+	}
+
+a.header{
+	width:300px;
+	height:125px; 
+	align:middle;
+	margin-top:20px;
+	margin-left: 20px;
+	display: block;}
+	
+.logo{width:300px;}
+
+
+#navi{margin-left:20px;margin-top:20px;}
+
+/*Tutors css*/
+#tutor{width:150px;margin:25px;box-shadow: 5px 5px 10px  #A7A2A3 ;display:inline-block;float:left;}
+
+p.d{font-family:Arial, Helvetica, sans-serif;margin:15px;font-size:15px;line-height:25px;color:#000000;float:"left";}
+
+#images{width:200px;float:left;}
+#description{width:530px;float:left;}
+
+
+
+
+a.a{
+	color:#000000;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:20px;display:inline-block;line-height:50px;}
+
+a.a:hover{
+	color:#2475B2;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:50px;display:inline-block;}
+	
+a.b{
+	color:#2475B2;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:20px;display:inline-block;line-height:50px;}
+
+a.b:hover{
+	color:#2475B2;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:20px;line-height:50px;display:inline-block;}
+	
+a.c{
+	color:#000000;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:50px;}
+
+a.c:hover{
+	color:#2475B2;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:50px;}
+	
+a.d{
+	color:#000000;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:12px;display:inline-block;}
+
+a.d:hover{
+	color:#2475B2;text-decoration:none;font-family:Arial, Helvetica, sans-serif;font-size:12px;display:inline-block;}
+
+p.a{font-family:Arial, Helvetica, sans-serif;margin:15px;font-size:15px;line-height:25px;text-align:center;oolor:#2475B2;}
+
+p.b{font-family:Arial, Helvetica, sans-serif;font-size:14px;text-align:center;margin-top:20px;}
+
+p.c{font-family: Baskerville, 'Baskerville Old Face', 'Hoefler Text', Garamond, 'Times New Roman', serif;margin:20px;font-size:28px;line-height:26px;Text-Align:center;}
+
+p.tutordescription{font-family:Arial, Helvetica, sans-serif;font-size:12px;margin:15px;}
+
+p.subjectdescription{font-family:Arial, Helvetica, sans-serif;font-size:12px;margin-left:50px;margin-right:50px;text-align:justify;line-height:25px;}
+
+ul{font-family:Arial, Helvetica, sans-serif;font-size:15px;line-height:30px;}
+
